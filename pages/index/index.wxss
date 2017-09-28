@@ -1,0 +1,105 @@
+.chooseImg {
+  background-color: black;
+  width: 80px;
+  font-size:10px;
+  opacity:0.5;
+  position: absolute;
+  top: 22%;
+  right:8%;
+  color: white;
+}
+
+/*三角形*/
+.triangle-down {   
+width: 0;
+height: 0;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+border-top: 10px solid black;
+margin-right: 6px;
+}
+
+/*picker选择器样式*/
+.picker{
+  display: inline-flex;
+  font-size: 12px;
+  color: #99999b;
+}
+
+/*title的样式*/
+.titleName{
+  font-weight: 600;
+  font-size: 12px;
+  color: black;
+  margin-right: 4px;
+}
+/*placeholder提示内容*/
+.placeholder{
+  font-size: 12px;
+  color: #99999b;
+  display: inline-flex;
+  text-align: left;
+}
+
+/*选择器位置的部分*/
+.upali{
+  width: 100%;
+  margin-top: -10px;
+}
+
+.downali{
+  width: 100%;
+  margin-top: 20px;
+}
+
+/*青春校园样式*/
+.young{
+  font-weight: 600;
+  font-size: 12px;
+  color: #66788e;
+  margin-right: 4px;
+
+}
+/*页面背景颜色*/
+page {  
+  display: block;  
+  min-height: 100%;  
+  background-color: #eaebed;  
+}  
+/*页脚*/
+.footer{
+  height: 20px;
+}
+.buttona{
+  text-align:center;
+  border-radius:0%;
+  border: none;
+  width: 30%;
+  height: 40px;
+  float: right;
+  line-height: 40px;
+
+}
+
+/**index.wxss**/
+/*
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
